@@ -81,7 +81,7 @@ const Quiz = ({ name, questions, score, setScore, setQuestions }) => {
   useEffect(()=>{
     if(timer===0){
       clear()
-      history.push('/')
+     
     }
   },[timer])
 
